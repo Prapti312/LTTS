@@ -1,4 +1,4 @@
-#include "unity.c"
+#include "unity.h"
 #include "calculator.h"
 #include "unity_internals.h"
 
