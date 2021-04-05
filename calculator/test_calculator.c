@@ -1,6 +1,6 @@
-#include "unity.h"
 #include "calculator.h"
 #include "unity_internals.h"
+#include "unity.h"
 
 /* Required by the unity test framework */
 void setUp(){}
