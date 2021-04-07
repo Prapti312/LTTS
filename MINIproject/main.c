@@ -3,6 +3,7 @@
 #include<string.h>
 #include <conio.h>
 #include "conversion.h"
+#include<stdlib.h>
 
 int main()
 {
@@ -92,7 +93,7 @@ int main()
                     checking=checking/10;
                 }
 
-                Binary_to_Hexadecimal(b); break;
+                printf("\nEquivalent Hexadecimal Number is : %s", Binary_to_Hexadecimal(b)); break;
 
             default:
                 printf("\n***INVALID NUMBER***\n");

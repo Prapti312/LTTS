@@ -32,6 +32,6 @@ long int Binary_to_Octal(long int);
  * @param int
  * @return long int
  */
-long int Binary_to_Hexadecimal(long int);
+char* Binary_to_Hexadecimal(long int);
 
 #endif

@@ -3,8 +3,9 @@
 #include <string.h>
 #include <conio.h>
 #include "conversion.h"
+#include<stdlib.h>
 
-long int Binary_to_Hexadecimal(long int bin)
+char* Binary_to_Hexadecimal(long int bin)
 {
     int remainder,x=0,summation=0,remaining[100],length=0;
 
@@ -23,32 +24,37 @@ long int Binary_to_Hexadecimal(long int bin)
         x++;
         length++;
     }
-    printf("\nEquivalent Hexa-Decimal Number : ");
-    for(x=length-1;x>=0;x--)
+
+    char *str;
+    str = (char*)malloc(100);
+    int i;
+
+    for(i=0,x=length-1;x>=0;x--)
     {
         switch(remaining[x])
         {
             case 10:
-                printf("A"); break;
+                str[i++]='A'; break;
 
             case 11:
-                printf("B"); break;
+                str[i++]='B'; break;
 
             case 12:
-                printf("C"); break;
+                str[i++]='C'; break;
 
             case 13:
-                printf("D"); break;
+                str[i++]='D'; break;
 
             case 14:
-                printf("E"); break;
+                str[i++]='E'; break;
 
             case 15:
-                printf("F"); break;
+                str[i++]='F'; break;
 
             default:
-                printf("%d",remaining[x]);
+                str[i++]=(remaining[x] + '0'); break;
         }
 
     }
+    return str;
 }
