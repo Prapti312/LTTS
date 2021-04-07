@@ -16,5 +16,5 @@ long int Binary_to_Decimal(long int bin)
         x++;
     }
 
-    printf("\nEquivalent Decimal Number : %d",summation);
+    return summation;
 }

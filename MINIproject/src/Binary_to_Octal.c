@@ -3,7 +3,6 @@
 #include <string.h>
 #include <conio.h>
 #include "conversion.h"
-
 long int Binary_to_Octal(long int bin)
 {
     int x=0,remainder,sum=0,remaining[100],length=0;
@@ -23,9 +22,13 @@ long int Binary_to_Octal(long int bin)
         x++;
         length++;
     }
-    printf("\nEquivalent Octal Number : ");
-    for(x=length-1;x>=0;x--)
-    {
-        printf("%d",remaining[x]);
-    }
+
+    long long int i;
+
+    long long int answer=remaining[length-1];
+
+    for(i=length-2; i>=0 ; i--){
+    	answer=(answer*10) + remaining[i];
+	}
+    return answer;
 }

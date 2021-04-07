@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <string.h>
+#include<string.h>
 #include <conio.h>
 #include "conversion.h"
 
@@ -46,7 +46,7 @@ int main()
                     checking=checking/10;
                 }
 
-                Binary_to_Decimal(b); break;
+                printf("\nEquivalent Decimal Number : %d",Binary_to_Decimal(b)); break;
 
             case 2:
                 printf("\n***BINARY TO OCTAL***\n");
@@ -69,7 +69,7 @@ int main()
                     checking=checking/10;
                 }
 
-                Binary_to_Octal(b); break;
+                printf("\nEquivalent Octal Number : %lld ",Binary_to_Octal(b)); break;
 
             case 3:
                 printf("\n***BINARY TO HEXA-DECIMAL***\n");
