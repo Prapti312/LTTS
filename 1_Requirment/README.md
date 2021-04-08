@@ -34,3 +34,6 @@ Main aim of Number System Conversion is to convert one base number system to ano
     * Decimal to Octal Converter
     * Decimal to Hexadecimal Converter
 *  in future sprints new features could be added like Octal_to_Binary,Octal_to_Decimal,Octal_to_Hexadecimal etc.
+
+## SWOT ANALYSIS
+![SWOT Analysis](https://github.com/Prapti312/LTTS/blob/main/1_Requirment/swot_analysis.jpg)
