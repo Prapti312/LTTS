@@ -56,5 +56,6 @@ char* Binary_to_Hexadecimal(long int bin)
         }
 
     }
+    str[i]='\0';
     return str;
 }

@@ -1,6 +1,7 @@
 #include "unity.h"
 #include "unity_internals.h"
 #include "conversion.h"
+#include <string.h>
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -20,7 +21,7 @@ void test_B_to_O(void)
 
 void test_B_to_H(void)
 {
-    TEST_ASSERT_EQUAL(10,Binary_to_Hexadecimal(10000));
+    strcmp("10",Binary_to_Hexadecimal(10000));
 }
 
 int main()

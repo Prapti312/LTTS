@@ -92,8 +92,10 @@ int main()
                     else
                     checking=checking/10;
                 }
+                char* a;
+                a=Binary_to_Hexadecimal(b);
 
-                printf("\nEquivalent Hexadecimal Number is : %s", Binary_to_Hexadecimal(b)); break;
+                printf("\nEquivalent Hexadecimal Number is : %s", a); break;
 
             default:
                 printf("\n***INVALID NUMBER***\n");
