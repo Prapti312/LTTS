@@ -33,5 +33,26 @@ long int Binary_to_Octal(long int);
  * @return long int
  */
 char* Binary_to_Hexadecimal(long int);
+/**
+ * @brief Function for Decimal to Binary Number Conversion
+ *
+ * @param int
+ * @return long int
+ */
+long int Decimal_to_Binary(long int);
+/**
+ * @brief Function for Decimal to Octal Number Conversion
+ *
+ * @param int
+ * @return long int
+ */
+long int Decimal_to_Octal(long int);
+/**
+ * @brief Function for Decimal to Hexadecimal Number Conversion
+ *
+ * @param int
+ * @return long int
+ */
+char* Decimal_to_Hexadecimal(long int);
 
 #endif

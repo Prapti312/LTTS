@@ -4,12 +4,18 @@ PROJECT_TEST_NAME =test.exe
 SRC = main.c\
 src\Binary_to_Decimal.c\
 src\Binary_to_Octal.c\
-src\Binary_to_Hexadecimal.c
+src\Binary_to_Hexadecimal.c\
+src\Decimal_to_Binary.c\
+src\Decimal_to_Octal.c\
+src\Decimal_to_Hexadecimal.c
 
 TEST_SRC = test\test_conversion.c\
 src\Binary_to_Decimal.c\
 src\Binary_to_Octal.c\
 src\Binary_to_Hexadecimal.c\
+src\Decimal_to_Binary.c\
+src\Decimal_to_Octal.c\
+src\Decimal_to_Hexadecimal.c\
 unity\unity.c
 
 TEST_INC = -Iinc\
