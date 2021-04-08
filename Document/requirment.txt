@@ -1,0 +1,17 @@
+High Level - What your project does and what are your objectives
+- Build a number system program to convert a given number to other number system
+
+Low Level - How are you going to implement the high level
+- main.c - > 1 binary to decimal
+             2 binary to hec
+
+make file
+to check if the program is working correctly have implemented unit testing
+
+Program should allow user to enter a number
+- Choose a number system
+- Convert the number into given number system and print it
+
+
+
+
